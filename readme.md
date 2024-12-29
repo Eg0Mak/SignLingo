@@ -1,3 +1,2 @@
 # SignLing
-
-![alt text](https://github.com/Eg0Mak/SignLingo/blob/master/images/icon/icon.ico)
+## Application for learning russian sign language
