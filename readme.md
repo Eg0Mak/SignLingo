@@ -1,3 +1,3 @@
 # SignLing
 
-![alt text](c:\Users\skp-n\Downloads\icon.jpg)
+![alt text](https://github.com/Eg0Mak/SignLingo/blob/master/images/icon/icon.jpg)
