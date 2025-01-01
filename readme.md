@@ -1,5 +1,3 @@
 # SignLing
 ## Application for learning russian sign language
-![title](images/icon/icon%20(320x320).png)
-        <center><img src="images/icon/icon%20(320x320).png" ...></center>
-        <center>This is an image</center>
+![title](images/icon/icon%20(320x320).png){ width="800" height="600" style="display: block; margin: 0 auto" }
