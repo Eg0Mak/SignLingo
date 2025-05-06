@@ -13,7 +13,7 @@ import time
 import keyboard
 import tensorflow
 from PIL import Image, ImageTk
-import win10toast
+#import win10toast
 
 
 
@@ -178,8 +178,9 @@ def neural():
     try:
         function()
     except cv2.error:
-        toaster = win10toast.ToastNotifier()
-        toaster.show_toast("Sign Lingo Warning", "Hand must be in capture", duration = 3)
+        # toaster = win10toast.ToastNotifier()
+        # toaster.show_toast("Sign Lingo Warning", "Hand must be in capture", duration = 3)
+        print("Sign Lingo Warning", "Hand must be in capture")
         function()
 
 
