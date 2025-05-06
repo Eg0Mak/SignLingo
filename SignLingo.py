@@ -57,7 +57,7 @@ def Set_text():
                     btn.config(command=Set_text)
                     enter.delete(0, END)
             def lblImage():
-                img_invalid = cv2.imread('images\char_invalid_syntax\symbol_invalid_syntax.png')
+                img_invalid = cv2.imread('images/char_invalid_syntax/symbol_invalid_syntax.png')
                 blue,green,red = cv2.split(img_invalid)
                 img = cv2.merge((red,green,blue))
                 im = Image.fromarray(img)
@@ -75,7 +75,7 @@ def Set_text():
                 cv2.imshow(str(i), img_path)  
             except:
                 if text[i] == " ":
-                    img_space = cv2.imread('images\char_\symbol_.png')
+                    img_space = cv2.imread('images/char_/symbol_.png')
                     cv2.imshow(str(i), img_space)
                 else:
                     imgtk = lblImage()
@@ -194,11 +194,14 @@ def Reset():
 lbl.place(x = 402, y = 260)
 
 # Иконка для нейронки
-neural_photo = PhotoImage(file="images\Icon_button\set4.png")
+#neural_photo = PhotoImage(file="images/Icon_button/set4.png")
+neural_photo = ImageTk.PhotoImage(Image.open("images/Icon_button/set4.png"))
 
 # Иконка для кнопки
-photo_test = PhotoImage(file="images\Icon_button\setv1.png")
-photo = PhotoImage(file = "images\Icon_button\set.png")
+#photo_test = PhotoImage(file="images/Icon_button/setv1.png")
+photo_test = ImageTk.PhotoImage(Image.open("images/Icon_button/setv1.png"))
+#photo = PhotoImage(file = "images/Icon_button/set.png")
+photo = ImageTk.PhotoImage(Image.open("images/Icon_button/set.png"))
 
 #Кнопка для сохранение текста в Labe
 btn = Button(command=Set_text, width=20, height=20, background='white', foreground='#5E9CFE', font=('TimesNewRoman', 8), image = photo_test, compound=TOP)
