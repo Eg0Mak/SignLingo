@@ -21,7 +21,7 @@
 
 ## Как это работает? 
 
-![<img src="images/process.png" width="250"/>](images/process.png)
+![<img src="images/process.png" width="150"/>](images/process.png)
 
 1. Создание алгоритма для перевода букв в жесты РЖЯ
 2. Создание графического интерфейса для приложения
